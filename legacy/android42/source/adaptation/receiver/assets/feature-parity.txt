@@ -1,0 +1,18 @@
+DiPlay Android 4.2 / API17 — wired public source edition
+
+USB-only entry points; no log upload or application-update implementation.
+Retains USBMUX/Lockdown/iAP2/NCM with VPN consent; ARMv7 USB/crypto JNI;
+H.264 native decryption and bounded video queue; Surface/Texture comparison;
+local media self-test and four-trial black-screen diagnostics.
+
+Projection resolution, frame rate and output preferences persist locally and apply
+on reconnect. Detects Android-reported display metrics. Defaults: 800x480 / 30fps.
+Vehicle-specific audio, microphone, steering keys and GPS still require validation.
+
+Reports are redacted and saved locally. Export includes retained trial reports.
+No real phone pairings, runtime accessory identity or signing keys are in source.
+A source-only build without externally supplied compatible identity cannot complete
+iPhone authentication. Host tests cannot establish real-vehicle compatibility.
+
+Protocol snapshot: DiPlay 0.2.8 f2d06951b4e8114dbb62f551c12a32a845a3042f.
+Legacy starting point: AIxBits/DiPlay android-4.3 cedb0a049f2206e0329a6f51193a8fc7d2bc6889.

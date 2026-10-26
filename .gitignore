@@ -39,3 +39,14 @@ release-signing.properties
 *.key
 *.apk
 *.aab
+
+# Android 4.2 local toolchain, runtime identity, signing keys and preserved releases
+/.local/android42/
+/artifacts/android42/
+
+# Standalone legacy source build outputs and toolchains
+/legacy/android42/source/tools/
+/legacy/android42/source/downloads/
+/legacy/android42/source/adaptation/output/
+__pycache__/
+*.pyc
